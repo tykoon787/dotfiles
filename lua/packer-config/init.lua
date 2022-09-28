@@ -11,9 +11,11 @@ return require'packer'.startup(function()
     use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
     use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
+	use 'terrortylor/nvim-comment' -- Comments
     use {
         'nvim-treesitter/nvim-treesitter',
         run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+
     }
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
     require("toggleterm").setup()
@@ -27,4 +29,5 @@ return require'packer'.startup(function()
 	"windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
 }
+	
 end)
