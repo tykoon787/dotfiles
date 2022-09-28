@@ -1,14 +1,14 @@
 local set = vim.opt
 
-set.expandtab = true
-set.smarttab = true
-set.shiftwidth = 8
-set.tabstop = 8
-set.autoindent = true
-set.smartindent = true
+-- set.expandtab = true
+-- set.smarttab = true
+-- set.shiftwidth = 1 
+-- set.tabstop = 8
+-- set.autoindent = true
+-- set.smartindent = true
 
 set.number = true
-set.mouse = a
+set.mouse = "a"
 set.hlsearch = true
 set.incsearch = true
 set.ignorecase= true

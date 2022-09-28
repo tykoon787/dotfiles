@@ -1,7 +1,7 @@
 return require'packer'.startup(function()
     use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
     use 'wbthomason/packer.nvim' -- Package Manager
-    -- use 'kyazdani42/nvim-tree.lua' -- NvimTree
+    use 'kyazdani42/nvim-tree.lua' -- NvimTree
     use 'onsails/lspkind.nvim' -- Icons for LSP
     use 'ryanoasis/vim-devicons'
     use {'glepnir/dashboard-nvim'}
