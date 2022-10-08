@@ -1,5 +1,6 @@
 require('settings')
 require('mappings')
+require('mappings.telescope_mappings')
 require('colorschemes-config.nightfox')
 require('packer-config')
 require('nvim-tree-config')
