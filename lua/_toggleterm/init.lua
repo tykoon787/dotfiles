@@ -17,11 +17,11 @@ toggleterm.setup {
   close_on_exit = true,
   shell = "/bin/bash",
   float_opts = {
-    border = "curved",
-    winblend = 0,
-    highlights = {
-      border = "Normal",
-      background = "Normal",
+  border = "curved",
+  winblend = 0,
+  highlights = {
+  border = "Normal",
+  background = "Normal",
     },
   },
 }
