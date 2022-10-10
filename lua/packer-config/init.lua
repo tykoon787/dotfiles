@@ -6,6 +6,7 @@ return require'packer'.startup(function()
     	use 'ryanoasis/vim-devicons'
     	use {'glepnir/dashboard-nvim'}
     	use 'EdenEast/nightfox.nvim' -- NightFox Color Scheme
+	use 'folke/tokyonight.nvim' -- Tokyonight Color Scheme
     	use 'kyazdani42/nvim-web-devicons'
     	use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
     	use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
