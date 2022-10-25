@@ -2,10 +2,11 @@ local set = vim.opt
 
 -- set.expandtab = true
 -- set.smarttab = true
--- set.shiftwidth = 1 
--- set.tabstop = 8
--- set.autoindent = true
--- set.smartindent = true
+set.shiftwidth = 8 
+set.tabstop = 8
+set.autoindent = true
+set.smartindent = true
+set.cindent = true
 
 set.number = true
 set.mouse = "a"
@@ -24,7 +25,6 @@ set.termguicolors = true
 set.cursorline = true
 
 set.hidden = true
-
 
 local M = {}
 -- boolify strings!
