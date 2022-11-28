@@ -15,7 +15,7 @@ toggleterm.setup {
   persist_size = true,
   direction = "horizontal",
   close_on_exit = true,
-  shell = "/bin/bash",
+  shell = "/usr/bin/tmux",
   float_opts = {
   border = "curved",
   winblend = 0,
