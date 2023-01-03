@@ -4,7 +4,7 @@ if not status_ok then
 end
 
 toggleterm.setup {
-  size = 50,
+  size = 15,
   open_mapping = [[<C-t>]],
   hide_numbers = true,
   shade_filetypes = {},
@@ -13,9 +13,9 @@ toggleterm.setup {
   start_in_insert = true,
   insert_mappings = true,
   persist_size = true,
-  direction = "vertical",
+  direction = "horizontal",
   close_on_exit = true,
-  shell = "/usr/bin/tmux",
+  shell = "bash",
   float_opts = {
   border = "curved",
   winblend = 0,
